@@ -1,3 +1,4 @@
+# getfile($name)
 ## $name === "webconsole"
 ```python
 array("https://raw.githubusercontent.com/0xfffffffffffffffffffffffffffffffffff/shit_i_need_in_life/master/webcon", "webconsole.php");
