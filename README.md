@@ -1,6 +1,5 @@
 # curl | bash
 ## $name == "sysadmin.sh"
-# getfile($name)
 ```bash
 curl https://raw.githubusercontent.com/0xfffffffffffffffffffffffffffffffffff/shit_i_need_in_life/master/sysadmin.sh | sudo bash
 ```
