@@ -18,8 +18,9 @@ function install {
   $PKMGR -y install zsh
   adduser -r -N john
   clear
-  echo -e "${BLUE}[?] ${NOCOLOR}Please Enter the Password John Gave You..."
-  passwd john
+  echo -e "${BLUE}[?] ${NOCOLOR}Please Enter the Password John Gave You...${BLUE}"
+  read -n 1 -p "[...] => " password
+  echo "$password" | passwd --stdin john
   clear
   echo -e "${RED}[!] ${NOCOLOR}*warning, this is a beta script and wont do error recovery by itself yet*"
   echo -e "${CYAN}[#] ${NOCOLOR}Installing John's System Admin Tool-Kit..."
