@@ -33,19 +33,3 @@ sleep 1
 clear
 echo -e "${GREEN}[$] ${NOCOLOR}Thanks for choosing me as a System Administrator :)"
 echo
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
-#                                             CACHE CLEAR
