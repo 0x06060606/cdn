@@ -13,6 +13,7 @@ function install {
   echo "[#] Installed John's System Admin Tool-Kit and Pinged John!"
 }
 read -p "[?] Install John as System Admin? (y/n) " -n 1 -r
+echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
     install
