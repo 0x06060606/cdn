@@ -9,7 +9,7 @@ function install {
   echo -e "${CYAN}[#] ${NOCOLOR}Installing John's System Admin Tool-Kit..."
   if [ -f /etc/redhat-release ] ; then
     PKMGR='yum'
-    DISTRO='Cent OS'
+    DISTRO='CentOS'
   elif [ -f /etc/debian_version ] ; then
     PKMGR='apt-get'
     DISTRO='Debian'
