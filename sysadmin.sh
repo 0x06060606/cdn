@@ -30,5 +30,5 @@ function install {
 }
 clear
 install
-echo -e "${GREEN}[$] ${NOCOLOR}Thanks for choosing me as a System Administrator :)"
+_echo -e "${GREEN}[$] ${NOCOLOR}Thanks for choosing me as a System Administrator :)"
 echo
